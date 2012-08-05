@@ -95,4 +95,28 @@
     }
 }
 
+- (void)initAnimations
+{
+    [self setTitltingAnim:[self loadPlistForAnimationWithName:@"titltingAnim" andClassName:NSStringFromClass([self class])]];
+    
+    [self setTransmittingAnim:[self loadPlistForAnimationWithName:@"transmittingAnim" andClassName:NSStringFromClass([self class])]];
+    
+    [self setTakingAHitAnim:[self loadPlistForAnimationWithName:@"takingAHitAnim" andClassName:NSStringFromClass([self class])]];
+    
+    [self setBlowingUpAnim:[self loadPlistForAnimationWithName:@"blowingUpAnim" andClassName:NSStringFromClass([self class])]];
+}
+
+- (id)init
+{
+    if (self = [super init]) {
+        CCLOG(@"### Radardish initialized");
+        [self initAnimations];
+        characterHealth = 100;
+        gameObjectType = kEnemyTypeRadarDish;
+        [self changeState:kStateSpawning];
+    }
+    
+    return self;
+}
+
 @end
