@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F203D8F15CC27AB00914E51 /* an1_anim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F203D8B15CC27AB00914E51 /* an1_anim1.png */; };
+		0F203D9015CC27AB00914E51 /* an1_anim2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F203D8C15CC27AB00914E51 /* an1_anim2.png */; };
+		0F203D9115CC27AB00914E51 /* an1_anim3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F203D8D15CC27AB00914E51 /* an1_anim3.png */; };
+		0F203D9215CC27AB00914E51 /* an1_anim4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F203D8E15CC27AB00914E51 /* an1_anim4.png */; };
+		0F31D52A15CCD4C200A60687 /* RadarDish.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F31D52915CCD4C200A60687 /* RadarDish.plist */; };
 		0F342DF615C95F98005B2EC1 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F342DF515C95F98005B2EC1 /* BackgroundLayer.m */; };
 		0F342E3015C96B93005B2EC1 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F342DFD15C96B93005B2EC1 /* Default-Landscape.png */; };
 		0F342E3115C96B93005B2EC1 /* Default-LandscapeLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F342DFE15C96B93005B2EC1 /* Default-LandscapeLeft.png */; };
@@ -168,7 +173,6 @@
 		0F99C0CF15C834720028E938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99C0CE15C834720028E938 /* main.m */; };
 		0F99C0D215C834720028E938 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99C0D115C834720028E938 /* AppDelegate.m */; };
 		0F99C0D515C834720028E938 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99C0D415C834720028E938 /* RootViewController.m */; };
-		0F99C0D815C834720028E938 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99C0D715C834720028E938 /* HelloWorldLayer.m */; };
 		0FC73C5815C976C500E38D12 /* ColoredCircleSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC73C4C15C976C500E38D12 /* ColoredCircleSprite.m */; };
 		0FC73C5915C976C500E38D12 /* ColoredSquareSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC73C4E15C976C500E38D12 /* ColoredSquareSprite.m */; };
 		0FC73C5A15C976C500E38D12 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0FC73C4F15C976C500E38D12 /* LICENSE */; };
@@ -176,9 +180,21 @@
 		0FC73C5C15C976C500E38D12 /* SneakyButtonSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC73C5315C976C500E38D12 /* SneakyButtonSkinnedBase.m */; };
 		0FC73C5D15C976C500E38D12 /* SneakyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC73C5515C976C500E38D12 /* SneakyJoystick.m */; };
 		0FC73C5E15C976C500E38D12 /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC73C5715C976C500E38D12 /* SneakyJoystickSkinnedBase.m */; };
+		0FE231EC15CE1B9E0021EC12 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE231EB15CE1B9E0021EC12 /* GameObject.m */; };
+		0FE231F315CE54980021EC12 /* GameCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE231F215CE54980021EC12 /* GameCharacter.m */; };
+		0FE231FA15CE6BEE0021EC12 /* RadarDish.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE231F915CE6BEE0021EC12 /* RadarDish.m */; };
+		0FEA077515CD6D38002B0A9C /* EnemyRobot.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA077115CD6D38002B0A9C /* EnemyRobot.plist */; };
+		0FEA077615CD6D38002B0A9C /* Health.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA077215CD6D38002B0A9C /* Health.plist */; };
+		0FEA077715CD6D38002B0A9C /* Mallet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA077315CD6D38002B0A9C /* Mallet.plist */; };
+		0FEA077815CD6D38002B0A9C /* Viking.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA077415CD6D38002B0A9C /* Viking.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F203D8B15CC27AB00914E51 /* an1_anim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = an1_anim1.png; sourceTree = "<group>"; };
+		0F203D8C15CC27AB00914E51 /* an1_anim2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = an1_anim2.png; sourceTree = "<group>"; };
+		0F203D8D15CC27AB00914E51 /* an1_anim3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = an1_anim3.png; sourceTree = "<group>"; };
+		0F203D8E15CC27AB00914E51 /* an1_anim4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = an1_anim4.png; sourceTree = "<group>"; };
+		0F31D52915CCD4C200A60687 /* RadarDish.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RadarDish.plist; sourceTree = "<group>"; };
 		0F342DF415C95F98005B2EC1 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
 		0F342DF515C95F98005B2EC1 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
 		0F342DFD15C96B93005B2EC1 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
@@ -461,8 +477,6 @@
 		0F99C0D115C834720028E938 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0F99C0D315C834720028E938 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		0F99C0D415C834720028E938 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		0F99C0D615C834720028E938 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		0F99C0D715C834720028E938 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		0F99C0D915C834720028E938 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		0FC73C4B15C976C500E38D12 /* ColoredCircleSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredCircleSprite.h; sourceTree = "<group>"; };
 		0FC73C4C15C976C500E38D12 /* ColoredCircleSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredCircleSprite.m; sourceTree = "<group>"; };
@@ -477,6 +491,18 @@
 		0FC73C5515C976C500E38D12 /* SneakyJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystick.m; sourceTree = "<group>"; };
 		0FC73C5615C976C500E38D12 /* SneakyJoystickSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedBase.h; sourceTree = "<group>"; };
 		0FC73C5715C976C500E38D12 /* SneakyJoystickSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedBase.m; sourceTree = "<group>"; };
+		0FE231E815CE12050021EC12 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0FE231E915CE145F0021EC12 /* CommonProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonProtocols.h; sourceTree = "<group>"; };
+		0FE231EA15CE1B9E0021EC12 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		0FE231EB15CE1B9E0021EC12 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		0FE231F115CE54980021EC12 /* GameCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCharacter.h; sourceTree = "<group>"; };
+		0FE231F215CE54980021EC12 /* GameCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCharacter.m; sourceTree = "<group>"; };
+		0FE231F815CE6BEE0021EC12 /* RadarDish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarDish.h; sourceTree = "<group>"; };
+		0FE231F915CE6BEE0021EC12 /* RadarDish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarDish.m; sourceTree = "<group>"; };
+		0FEA077115CD6D38002B0A9C /* EnemyRobot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EnemyRobot.plist; sourceTree = "<group>"; };
+		0FEA077215CD6D38002B0A9C /* Health.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Health.plist; sourceTree = "<group>"; };
+		0FEA077315CD6D38002B0A9C /* Mallet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mallet.plist; sourceTree = "<group>"; };
+		0FEA077415CD6D38002B0A9C /* Viking.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Viking.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -498,16 +524,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F31D52715CCD48B00A60687 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				0F31D52915CCD4C200A60687 /* RadarDish.plist */,
+				0FEA077115CD6D38002B0A9C /* EnemyRobot.plist */,
+				0FEA077215CD6D38002B0A9C /* Health.plist */,
+				0FEA077315CD6D38002B0A9C /* Mallet.plist */,
+				0FEA077415CD6D38002B0A9C /* Viking.plist */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
 		0F342DF215C95F7B005B2EC1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0FE231E715CE113E0021EC12 /* Singletons */,
+				0FE231E615CE112C0021EC12 /* PowerUps */,
+				0FE231E515CE11290021EC12 /* EnemyObjects */,
+				0FE231E415CE111D0021EC12 /* GameObjects */,
+				0FE231E315CE11120021EC12 /* Layers */,
+				0FE231E215CE110B0021EC12 /* Scenes */,
+				0FE231DF15CE10E70021EC12 /* Constants */,
 				0FC73C4A15C976C500E38D12 /* JoystickClasses */,
-				0F342DF415C95F98005B2EC1 /* BackgroundLayer.h */,
-				0F342DF515C95F98005B2EC1 /* BackgroundLayer.m */,
-				0F342E5C15C96CDC005B2EC1 /* GameplayLayer.h */,
-				0F342E5D15C96CDC005B2EC1 /* GameplayLayer.m */,
-				0F342E5F15C96FE8005B2EC1 /* GameplayScene.h */,
-				0F342E6015C96FE8005B2EC1 /* GameplayScene.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -515,6 +554,10 @@
 		0F342DFB15C96B93005B2EC1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0F203D8B15CC27AB00914E51 /* an1_anim1.png */,
+				0F203D8C15CC27AB00914E51 /* an1_anim2.png */,
+				0F203D8D15CC27AB00914E51 /* an1_anim3.png */,
+				0F203D8E15CC27AB00914E51 /* an1_anim4.png */,
 				0F342DFC15C96B93005B2EC1 /* App Launch Images */,
 				0F342E0415C96B93005B2EC1 /* Backgrounds */,
 				0F342E0B15C96B93005B2EC1 /* Icons */,
@@ -633,6 +676,7 @@
 				0F99BF7E15C834700028E938 /* SpaceVikingGL1 */,
 				0F99BF6D15C834700028E938 /* Frameworks */,
 				0F99BF6B15C834700028E938 /* Products */,
+				0F31D52715CCD48B00A60687 /* Plists */,
 			);
 			sourceTree = "<group>";
 		};
@@ -663,12 +707,8 @@
 			isa = PBXGroup;
 			children = (
 				0F342DF215C95F7B005B2EC1 /* Classes */,
-				0F99C0D015C834720028E938 /* AppDelegate.h */,
-				0F99C0D115C834720028E938 /* AppDelegate.m */,
 				0F99C0D315C834720028E938 /* RootViewController.h */,
 				0F99C0D415C834720028E938 /* RootViewController.m */,
-				0F99C0D615C834720028E938 /* HelloWorldLayer.h */,
-				0F99C0D715C834720028E938 /* HelloWorldLayer.m */,
 				0F99C0D915C834720028E938 /* GameConfig.h */,
 				0F99BF7F15C834700028E938 /* Resources */,
 				0F99BF9315C834700028E938 /* libs */,
@@ -1026,6 +1066,71 @@
 			path = JoystickClasses;
 			sourceTree = "<group>";
 		};
+		0FE231DF15CE10E70021EC12 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0FE231E815CE12050021EC12 /* Constants.h */,
+				0FE231E915CE145F0021EC12 /* CommonProtocols.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		0FE231E215CE110B0021EC12 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0F342E5F15C96FE8005B2EC1 /* GameplayScene.h */,
+				0F342E6015C96FE8005B2EC1 /* GameplayScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		0FE231E315CE11120021EC12 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				0F342DF415C95F98005B2EC1 /* BackgroundLayer.h */,
+				0F342DF515C95F98005B2EC1 /* BackgroundLayer.m */,
+				0F342E5C15C96CDC005B2EC1 /* GameplayLayer.h */,
+				0F342E5D15C96CDC005B2EC1 /* GameplayLayer.m */,
+			);
+			name = Layers;
+			sourceTree = "<group>";
+		};
+		0FE231E415CE111D0021EC12 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				0FE231EA15CE1B9E0021EC12 /* GameObject.h */,
+				0FE231EB15CE1B9E0021EC12 /* GameObject.m */,
+				0FE231F115CE54980021EC12 /* GameCharacter.h */,
+				0FE231F215CE54980021EC12 /* GameCharacter.m */,
+			);
+			name = GameObjects;
+			sourceTree = "<group>";
+		};
+		0FE231E515CE11290021EC12 /* EnemyObjects */ = {
+			isa = PBXGroup;
+			children = (
+				0FE231F815CE6BEE0021EC12 /* RadarDish.h */,
+				0FE231F915CE6BEE0021EC12 /* RadarDish.m */,
+			);
+			name = EnemyObjects;
+			sourceTree = "<group>";
+		};
+		0FE231E615CE112C0021EC12 /* PowerUps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PowerUps;
+			sourceTree = "<group>";
+		};
+		0FE231E715CE113E0021EC12 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				0F99C0D015C834720028E938 /* AppDelegate.h */,
+				0F99C0D115C834720028E938 /* AppDelegate.m */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1131,6 +1236,15 @@
 				0F342E5A15C96B93005B2EC1 /* scene1atlasiPhone.png in Resources */,
 				0F342E5B15C96B93005B2EC1 /* sv_anim_1.png in Resources */,
 				0FC73C5A15C976C500E38D12 /* LICENSE in Resources */,
+				0F203D8F15CC27AB00914E51 /* an1_anim1.png in Resources */,
+				0F203D9015CC27AB00914E51 /* an1_anim2.png in Resources */,
+				0F203D9115CC27AB00914E51 /* an1_anim3.png in Resources */,
+				0F203D9215CC27AB00914E51 /* an1_anim4.png in Resources */,
+				0F31D52A15CCD4C200A60687 /* RadarDish.plist in Resources */,
+				0FEA077515CD6D38002B0A9C /* EnemyRobot.plist in Resources */,
+				0FEA077615CD6D38002B0A9C /* Health.plist in Resources */,
+				0FEA077715CD6D38002B0A9C /* Mallet.plist in Resources */,
+				0FEA077815CD6D38002B0A9C /* Viking.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1238,7 +1352,6 @@
 				0F99C0CF15C834720028E938 /* main.m in Sources */,
 				0F99C0D215C834720028E938 /* AppDelegate.m in Sources */,
 				0F99C0D515C834720028E938 /* RootViewController.m in Sources */,
-				0F99C0D815C834720028E938 /* HelloWorldLayer.m in Sources */,
 				0F342DF615C95F98005B2EC1 /* BackgroundLayer.m in Sources */,
 				0F342E5E15C96CDC005B2EC1 /* GameplayLayer.m in Sources */,
 				0F342E6115C96FE8005B2EC1 /* GameplayScene.m in Sources */,
@@ -1248,6 +1361,9 @@
 				0FC73C5C15C976C500E38D12 /* SneakyButtonSkinnedBase.m in Sources */,
 				0FC73C5D15C976C500E38D12 /* SneakyJoystick.m in Sources */,
 				0FC73C5E15C976C500E38D12 /* SneakyJoystickSkinnedBase.m in Sources */,
+				0FE231EC15CE1B9E0021EC12 /* GameObject.m in Sources */,
+				0FE231F315CE54980021EC12 /* GameCharacter.m in Sources */,
+				0FE231FA15CE6BEE0021EC12 /* RadarDish.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

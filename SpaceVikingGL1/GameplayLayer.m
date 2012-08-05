@@ -67,6 +67,7 @@
 {
     CGPoint scaledVelocity = ccpMult(aJoystick.velocity, 1024.0f);
     
+    
     CGPoint newPosition = ccp(tempNode.position.x + scaledVelocity.x * deltaTime, tempNode.position.y + scaledVelocity.y * deltaTime);
     
     tempNode.position = newPosition;
@@ -103,8 +104,8 @@
             [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"scene1atlas.plist"];
             chapter2SpriteBatchNode = [CCSpriteBatchNode batchNodeWithFile:@"scene1atlas.png"];
         } else {
-            [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"scene1atlasIphone.plist"];
-            chapter2SpriteBatchNode = [CCSpriteBatchNode batchNodeWithFile:@"scene1atlasIphone.png"];
+            [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"scene1atlasiPhone.plist"];
+            chapter2SpriteBatchNode = [CCSpriteBatchNode batchNodeWithFile:@"scene1atlasiPhone.png"];
         }
         
         //Use the SpriteFrameName to create a CCSprite instance
@@ -118,12 +119,39 @@
         vikingSprite.position = ccp(screenSize.width/2, screenSize.height * 0.17f);
         
         //[self addChild:vikingSprite z:0 tag:kVikingSprite];
+
+// Use the CCSpriteBatchNode and had handle to use which size Ole png for the vikingSprite.
+//        if (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPad){
+//            [vikingSprite setScaleX:screenSize.width/1024.0f];
+//            [vikingSprite setScaleY:screenSize.height/768.0f];
+//            
+//        }
         
-        if (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPad){
-            [vikingSprite setScaleX:screenSize.width/1024.0f];
-            [vikingSprite setScaleY:screenSize.height/768.0f];
-            
-        }
+        // Start Animation Example Code
+        CCSprite *animatingRobot = [CCSprite spriteWithFile:@"an1_anim1.png"];
+        [animatingRobot setPosition:ccp(vikingSprite.position.x + 50.0f, vikingSprite.position.y)];
+        [self addChild:animatingRobot];
+        CCAnimation *robotAnim = [CCAnimation animation];
+        [robotAnim addFrameWithFilename:@"an1_anim2.png"];
+        [robotAnim addFrameWithFilename:@"an1_anim3.png"];
+        [robotAnim addFrameWithFilename:@"an1_anim4.png"];
+        
+        id robotAnimationAction = [CCAnimate actionWithDuration:0.5f animation:robotAnim restoreOriginalFrame:YES];
+        
+        id repeatRobotAnimation = [CCRepeatForever actionWithAction:robotAnimationAction];
+        
+        [animatingRobot runAction:repeatRobotAnimation];
+        
+        CCAnimation *exampleAnim = [CCAnimation animation];
+        [exampleAnim addFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"sv_anim_2.png"]];
+        [exampleAnim addFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"sv_anim_3.png"]];
+        [exampleAnim addFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"sv_anim_4.png"]];
+        
+        id animationAction = [CCAnimate actionWithDuration:0.5f animation:exampleAnim restoreOriginalFrame:NO];
+        id repeatAction = [CCRepeatForever actionWithAction:animationAction];
+        
+        [vikingSprite runAction:repeatAction];
+        // End Animation Example Code
         
         [self initJoystickAndButtons];
         [self scheduleUpdate];
