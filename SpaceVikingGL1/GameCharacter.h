@@ -18,7 +18,7 @@
 - (int) getWeaponDamage;
 
 @property (readwrite) int characterHealth;
-@property (readwrite) CharacterStates characterSate;
+@property (readwrite) CharacterStates characterState;
 
 
 @end

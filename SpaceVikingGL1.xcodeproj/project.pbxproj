@@ -59,6 +59,7 @@
 		0F342E5B15C96B93005B2EC1 /* sv_anim_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F342E2F15C96B93005B2EC1 /* sv_anim_1.png */; };
 		0F342E5E15C96CDC005B2EC1 /* GameplayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F342E5D15C96CDC005B2EC1 /* GameplayLayer.m */; };
 		0F342E6115C96FE8005B2EC1 /* GameplayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F342E6015C96FE8005B2EC1 /* GameplayScene.m */; };
+		0F8680F015D2AFF500616A4C /* Viking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8680EF15D2AFF500616A4C /* Viking.m */; };
 		0F99BF6F15C834700028E938 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F99BF6E15C834700028E938 /* QuartzCore.framework */; };
 		0F99BF7115C834700028E938 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F99BF7015C834700028E938 /* OpenGLES.framework */; };
 		0F99BF7315C834700028E938 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F99BF7215C834700028E938 /* OpenAL.framework */; };
@@ -245,6 +246,8 @@
 		0F342E5D15C96CDC005B2EC1 /* GameplayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameplayLayer.m; sourceTree = "<group>"; };
 		0F342E5F15C96FE8005B2EC1 /* GameplayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameplayScene.h; sourceTree = "<group>"; };
 		0F342E6015C96FE8005B2EC1 /* GameplayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameplayScene.m; sourceTree = "<group>"; };
+		0F8680EE15D2AFF500616A4C /* Viking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viking.h; sourceTree = "<group>"; };
+		0F8680EF15D2AFF500616A4C /* Viking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Viking.m; sourceTree = "<group>"; };
 		0F99BF6A15C834700028E938 /* SpaceVikingGL1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceVikingGL1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F99BF6E15C834700028E938 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0F99BF7015C834700028E938 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1102,6 +1105,8 @@
 				0FE231EB15CE1B9E0021EC12 /* GameObject.m */,
 				0FE231F115CE54980021EC12 /* GameCharacter.h */,
 				0FE231F215CE54980021EC12 /* GameCharacter.m */,
+				0F8680EE15D2AFF500616A4C /* Viking.h */,
+				0F8680EF15D2AFF500616A4C /* Viking.m */,
 			);
 			name = GameObjects;
 			sourceTree = "<group>";
@@ -1364,6 +1369,7 @@
 				0FE231EC15CE1B9E0021EC12 /* GameObject.m in Sources */,
 				0FE231F315CE54980021EC12 /* GameCharacter.m in Sources */,
 				0FE231FA15CE6BEE0021EC12 /* RadarDish.m in Sources */,
+				0F8680F015D2AFF500616A4C /* Viking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

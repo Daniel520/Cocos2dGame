@@ -32,7 +32,7 @@ typedef enum {
 } CharacterStates;
 
 typedef enum {
-    kObjectTpeNone,
+    kObjectTypeNone,
     kPowerUpTypeHealth,
     kPowerUpTypeMallet,
     kEnemyTypeRadarDish,

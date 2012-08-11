@@ -10,14 +10,14 @@
 #import "GameCharacter.h"
 
 @interface RadarDish : GameCharacter {
-    CCAnimation *titltingAnim;
+    CCAnimation *tiltingAnim;
     CCAnimation *transmittingAnim;
     CCAnimation *takingAHitAnim;
     CCAnimation *blowingUpAnim;
     GameCharacter *vikingCharacter;
 }
 
-@property (nonatomic, retain) CCAnimation *titltingAnim;
+@property (nonatomic, retain) CCAnimation *tiltingAnim;
 @property (nonatomic, retain) CCAnimation *transmittingAnim;
 @property (nonatomic, retain) CCAnimation *takingAHitAnim;
 @property (nonatomic, retain) CCAnimation *blowingUpAnim;

@@ -11,7 +11,7 @@
 @implementation GameCharacter
 
 @synthesize characterHealth;
-@synthesize characterSate;
+@synthesize characterState;
 
 - (void) dealloc
 {

@@ -10,14 +10,14 @@
 
 @implementation RadarDish
 
-@synthesize titltingAnim;
+@synthesize tiltingAnim;
 @synthesize transmittingAnim;
 @synthesize takingAHitAnim;
 @synthesize blowingUpAnim;
 
 - (void)dealloc
 {
-    [titltingAnim release];
+    [tiltingAnim release];
     [transmittingAnim release];
     [takingAHitAnim release];
     [blowingUpAnim release];
@@ -29,12 +29,12 @@
 {
     [self stopAllActions];
     id action = nil;
-    [self setCharacterSate:newState];
+    [self setCharacterState:newState];
     
     switch (newState) {
         case kStateSpawning:
             CCLOG(@"RadarDish->Starting the Spawning Animation");
-            action = [CCAnimate actionWithAnimation:titltingAnim restoreOriginalFrame:NO];
+            action = [CCAnimate actionWithAnimation:tiltingAnim restoreOriginalFrame:NO];
             break;
         
         case kStateIdle:
@@ -77,7 +77,7 @@
     
     CGRect vikingBoundingBox = [vikingCharacter adjustedBoundBox];
     
-    CharacterStates vikingState = [vikingCharacter characterSate];
+    CharacterStates vikingState = [vikingCharacter characterState];
     
     //Calculate if the Viking is attacking and nearby
     if ((vikingState == kStateAttacking) && (CGRectIntersectsRect([self adjustedBoundBox], vikingBoundingBox))) {
@@ -97,7 +97,7 @@
 
 - (void)initAnimations
 {
-    [self setTitltingAnim:[self loadPlistForAnimationWithName:@"titltingAnim" andClassName:NSStringFromClass([self class])]];
+    [self setTiltingAnim:[self loadPlistForAnimationWithName:@"tiltingAnim" andClassName:NSStringFromClass([self class])]];
     
     [self setTransmittingAnim:[self loadPlistForAnimationWithName:@"transmittingAnim" andClassName:NSStringFromClass([self class])]];
     

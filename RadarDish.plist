@@ -20,13 +20,13 @@
 		<key>filenamePrefix</key>
 		<string>radar_</string>
 	</dict>
-	<key>takingAhitAnim</key>
+	<key>takingAHitAnim</key>
 	<dict>
 		<key>animationFrames</key>
 		<string>5,5,7,8,8,5</string>
 		<key>delay</key>
 		<real>0.2</real>
-		<key>filenamPrefix</key>
+		<key>filenamePrefix</key>
 		<string>radar_</string>
 	</dict>
 	<key>transmittingAnim</key>
